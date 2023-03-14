@@ -1,0 +1,149 @@
+
+#header {
+    position: relative;
+    display: flex;
+    background-color: #555;
+    height: 50px;
+    flex-direction: row-reverse;
+
+}
+#box{
+    position: relative;
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    /* border: 1px solid white; */
+    right: 36px;
+}
+.box_item{
+    position: relative;
+    color: white;
+    line-height: 50px;
+}
+.box_item:hover{
+    color: red;
+}
+.box_icon{
+    position: relative;
+    top: 7px;
+    left: -2px;
+}
+
+#menu{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    display: flex;
+    height: 150px;
+    /* height: 200px; */
+}
+.logo{
+    position: relative;
+    margin-left: 150px; 
+    width: 60px;
+
+}
+.luachon{
+    position: relative;
+    display: flex;
+    margin-left: 250px;
+    font-size: 25px;
+    width: 1000px;
+    /* line-height: 150px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+.select{
+    position: relative;
+    height: 30px;
+    width: 150px;
+    margin-top: 60px;
+    /* border: 1px solid black; */
+    text-align: start;
+    border-right: 3px solid grey;
+}
+.select:hover{
+    color: orangered
+}
+.discover{
+    margin-top: 50px;
+}
+.timkiem{
+    position: relative;
+    border: 2px solid black;
+    display: flex;
+    margin: auto;
+    height: 40px;
+    width: 300px;
+}
+.search{
+    position: relative;
+    margin-top: 10px;
+    margin-right: 35px;
+}
+/* .search:hover{
+    line-height: cyan;
+} */
+input{
+    border: hidden;
+}
+.search_icon{
+    width: 30px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+#text_animation{
+    height: 70px;
+    background-color: rgb(232, 228, 228);
+    position: relative;
+    display: flex;
+} 
+.class_text_animation{
+    position: relative;
+    display: flex;
+    width: 800px;
+    /* border: 1px solid black; */
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Times New Roman', Times, serif;
+    justify-content: space-between;
+}
+#banner{
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 768px;
+    width: 1922px;
+    /* border: 1px solid black; */
+    background-image: url(https://ananas.vn/wp-content/uploads/LowHigh_Desktop-1920x1050.jpg);
+}
+.orage_contact{
+    position: fixed;
+    display: block;
+    color: white;
+    background-color: orangered;
+    right: 0;
+    top: 300px;
+    width: 40px;
+    height: 80px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+}
+.black_contact{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #3c3c3c;
+    right: 0;
+    top: 400px;
+    width: 40px;
+    height: 140px;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.black{
+    margin: auto;
+}
