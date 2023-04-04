@@ -1,24 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 
 #header {
     position: relative;
     display: flex;
-    background-color: #555;
-    height: 50px;
+    background-color: black;
+    height: 30px;
     flex-direction: row-reverse;
-
 }
 #box{
     position: relative;
     display: flex;
     width: 600px;
     justify-content: space-around;
-    /* border: 1px solid white; */
+    /* border: 1px solid white;  */
     right: 36px;
 }
 .box_item{
     position: relative;
     color: white;
-    line-height: 50px;
+    height: 30px;
+    top: -5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .box_item:hover{
     color: red;
@@ -33,59 +41,65 @@
     font-family: 'Courier New', Courier, monospace;
     position: relative;
     display: flex;
-    height: 150px;
-    /* height: 200px; */
+    height: 120px;
+    width: 100%;
+    justify-content: space-between;
 }
 .logo{
     position: relative;
-    margin-left: 150px; 
-    width: 60px;
-
+    margin-left: 155px; 
+    width: 50px;
 }
 .luachon{
     position: relative;
     display: flex;
-    margin-left: 250px;
-    font-size: 25px;
-    width: 1000px;
-    /* line-height: 150px; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    justify-content: space-around;
-    /* border: 1px solid black; */
+    /* margin-left: 175px; */
+    font-size: 22px;
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
 }
 .select{
     position: relative;
+    display: flex;
     height: 30px;
-    width: 150px;
+    padding-right: 26px;
     margin-top: 60px;
-    /* border: 1px solid black; */
-    text-align: start;
-    border-right: 3px solid grey;
+    border-right: 2px solid lightgrey;
+    margin-right: 15px;
+
 }
+
 .select:hover{
     color: orangered
 }
 .discover{
-    margin-top: 50px;
+
 }
+
+.discover_img{
+    position: relative;
+    margin-top: 40px;
+}
+
 .timkiem{
     position: relative;
-    border: 2px solid black;
+    border: 1px solid lightgrey;
     display: flex;
-    margin: auto;
+    margin-top: 45px;
     height: 40px;
     width: 300px;
+    margin-right: 36px;
 }
 .search{
     position: relative;
     margin-top: 10px;
     margin-right: 35px;
 }
-/* .search:hover{
-    line-height: cyan;
-} */
-input{
-    border: hidden;
+
+.search > input{
+    border: none;
+    outline: none;
 }
 .search_icon{
     width: 30px;
@@ -93,8 +107,8 @@ input{
     margin-left: 8px;
 }
 #text_animation{
-    height: 70px;
-    background-color: rgb(232, 228, 228);
+    height: 50px;
+    background-color: rgb(250, 247, 247);
     position: relative;
     display: flex;
 } 
@@ -109,21 +123,29 @@ input{
     justify-content: space-between;
 }
 #banner{
-    position: relative;
     display: block;
-    margin: auto;
-    height: 768px;
-    width: 1922px;
-    /* border: 1px solid black; */
-    background-image: url(https://ananas.vn/wp-content/uploads/LowHigh_Desktop-1920x1050.jpg);
+    vertical-align: middle;
+    /* height: 1050px;
+    width: 1920px; */
+    /* background-image: url("/Images/LowHigh_Desktop-1920x1050.jpg"); */
+
 }
+
+.banner_img{
+    display: block;
+    width: 100vw;
+    max-width: 1920px;
+    object-fit: cover;
+
+}
+
 .orage_contact{
     position: fixed;
     display: block;
     color: white;
     background-color: orangered;
     right: 0;
-    top: 300px;
+    top: 230px;
     width: 40px;
     height: 80px;
     text-align: center;
@@ -135,15 +157,12 @@ input{
     display: flex;
     flex-direction: column;
     color: white;
-    background-color: #3c3c3c;
+    background-color: #555;
     right: 0;
-    top: 400px;
+    top: 330px;
     width: 40px;
-    height: 140px;
+    height: 100px;
     text-align: center;
     justify-content: space-around;
     font-size: 20px;
-}
-.black{
-    margin: auto;
 }
