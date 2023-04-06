@@ -166,3 +166,138 @@
     justify-content: space-around;
     font-size: 20px;
 }
+
+
+.after_ananas{
+    display: flex;
+    
+    justify-content: space-around;
+    margin: 0 15%;
+    height: 600px;
+    align-items: center;
+   width: 900px;
+  
+    
+}
+.img_1{
+  border: 1px solid white;
+  
+}
+.img_2{
+    max-width: 100px;
+    height: auto;
+   
+ 
+}
+.outlet_sale{
+    width: 300px;
+}
+.font_size{
+    font-size: 18px;
+    width: 600px;
+}
+#danh_muc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#product{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+}
+.catalogy_1{
+}
+.catalogy_2{
+    
+}
+.catalogy_3{
+}
+ #font_big_img{
+    display: flex;
+    height: 1200px;
+    align-items: center;
+ }
+.big_img{
+    display: flex;
+   
+}
+#main_insta{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.font_h1{
+    font-size: 20px;
+}
+#four_picture{
+    position: absolute;
+    display: flex;
+    right: 0px;
+    width: 700px;
+    height: 400px;
+    align-items: center;
+}
+.picture{
+    margin-right: 20px; 
+   
+}
+.size_small{
+    font-size: 20px;
+}
+#four_picture_2{
+    position: absolute;
+    display: flex;
+    top : 400px;  
+}
+#skip{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin-top: 800px;
+}
+.font_h2{
+    border: 4px solid black;
+    background-color: black;
+    color: white;
+    width: 230px;
+    height: 30px;
+    text-align: center;
+    
+}
+#footer{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 1000px;
+    height: 500px;
+    background-color: rgb(97, 92, 92);
+}
+#footer_img{
+    margin-top: 70px;
+    margin-right: 700px;
+}
+.img_footer{
+}
+.search_shop{
+    border: 1px solid orangered;
+    height: 35px;
+    background-color:  rgb(233, 89, 37);
+    color: white;
+    text-align: center  ;
+    font-size: 20px;
+}
+#footer_1{
+    position: relative;
+    display: flex;
+    justify-content: space-around; 
+    width: 600px;
+   
+     
+}
+
