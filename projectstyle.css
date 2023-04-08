@@ -182,7 +182,7 @@
     display: flex;
     flex-direction: column;
     color: white;
-    background-color: #555;
+    background-color: #666;
     right: 0;
     top: 330px;
     width: 40px;
@@ -348,19 +348,131 @@
     color: white;
     text-decoration: none;
 }
+
 #footer{
-    background-color: #555;
+    background-color: #4c4c4c;
     position: relative;
     margin-top: 80px;
+    height: 523px;
+    z-index: -1;
 }
-#footer_img{
 
+.footer_content{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
 }
-.img_footer{
+
+.footer_img{
+    position: relative;
+    display: grid;
+    width: 25%;
+    justify-content: center;
+}
+.img_store{
+    float: right;
+    width: 280px;
+    height: 206px;
 }
 .search_shop{
-
+    width: 280px;
+    height: 40px;
+    background-color: orangered;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin-top: 24px;
+    float: right;
+    position: relative;
 }
-#footer_1{
+
+.right_footer{
+    position: relative;
+    display: inline-block;
+    width: 75%;
 }
 
+.footer_1{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+
+.ft_item{
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 25%;
+    float: left;
+}
+
+.ft_item > ul > li{
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+.ft_item_title{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.footer_social{
+    position: relative;
+    display: flex;
+}
+
+.social{
+    position: relative;
+    width: 25%;
+}
+
+.txt_social{
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.logo_social{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.inputemail{
+    width: 25%;
+}
+
+.txt_inputemail{
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+#email_box{
+    height: 40px;
+    width: 170px;
+}
+
+.final_footer{
+    position: relative;
+    display: flex;
+}
+
+.logo_bocongthuong{
+    width: 25%;
+}
+
+.final_text_footer{
+    width: 75%;
+}
+
+.copyright{
+    line-height: 75px;
+    color: gray;
+    font-size: 20px;
+}
