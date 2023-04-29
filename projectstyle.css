@@ -476,3 +476,93 @@
     color: gray;
     font-size: 20px;
 }
+#Clearance_sale{
+    position: relative;
+    width: auto;
+    height: 280px;
+    margin-left: 250px;
+   
+}
+.img_Clearance{
+    width: 950px;
+    height: 250px;
+}
+#three_pircture_1{
+    position: relative;
+    display: flex;
+    width: 980px;
+    height: 450px;
+    justify-content: space-around;
+    margin-left: 232px;
+}
+.img_picture_first{
+    width: 300px;
+    height: 300px;
+}
+.font{
+    position: absolute;
+    font-size: 15px;
+    font-family: GeometricExtraBolds;
+    font-style: italic;
+    background-color: #3d3c3c;
+    color: white;
+    width: 15%;
+    height: 22px;
+    text-align: center;
+    margin-top: -28%;
+}
+.soldout-text{
+    position: absolute;
+    z-index: 85;
+    width: 30%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    top: 30%
+}
+.black_rect{
+    height: 300px;
+    background-color:rgb(24, 23, 23);
+    margin-top: -304px;
+    opacity: 0.5;
+    z-index: 9;
+}
+#capt{
+    text-align:  center;
+    margin-top: 10px;
+    height: 100px;
+}
+.font_2{
+   position: relative;
+    text-align: center;
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+}
+.font_small{
+    font-size: 13px;
+    margin-top: 5px;
+}
+.line{
+    color: #afafaf;
+}
+.price{
+    margin-top: 7px;
+}
+.Urbas_h5:hover {
+    color: orange;
+}
+.price_real{
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #808080;
+    margin-left: 10px;
+}
+#three_picture_2{
+    position: relative;
+    display: flex;
+    width: 980px;
+    height: 450px;
+    justify-content: space-around;
+    margin-left: 232px;
+}
