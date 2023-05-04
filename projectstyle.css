@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+:root{
+    --one-width: 100vh;
+}
 
 #header {
     position: relative;
@@ -86,6 +88,45 @@
 .select > .select_con:hover{
     color: orangered
 }
+
+.tab_sanpham{
+    position: absolute;
+    display: none;
+    z-index: 1000;
+    top: 100%;
+    background-color: #3d3c3c;
+    margin-top: 28px;
+    height: 590px;
+    width: 3000px;
+    float: left;
+    left: 0;
+}
+.tab4{
+    position: relative;
+    display: flex;
+    width: 2180;
+    border: 1px solid white;
+}
+
+.tab_cho{
+    border: 1px solid white;
+    position: relative;
+}
+
+.img_tab4{
+    height: 325px;
+    width: 325px;
+}
+
+.text_tab4{
+    color: white;
+    text-align: center;
+}
+
+.textpr {
+    color: white;
+}
+
 .discover{
     position: relative;
 }
@@ -876,4 +917,124 @@
 
 .pt1:hover .img_picture_18{
     background: url('/Images/pro_18_1.jpg') center /cover no-repeat;
+}
+
+/* discoverYOU */
+
+.new_discoveryou{
+    position: relative;
+    width: 100%;
+    height: 160px;
+    display: flex;
+}
+.new_discoveryou_banner{
+    position: relative;
+    height: 82px;
+    width: 178px;
+    margin: auto;
+}
+
+.bannerdiscoveryouanddescribe{
+    position: relative;
+    display: flex;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 520px;
+    max-width: 1920px;
+    overflow: hidden;
+    justify-content: center;
+    margin: auto;
+}
+
+.banner_discoveryou{
+    height: 79vh;
+    /* max-width: 66.666666%; */
+    width: 68vw;
+    object-fit: cover;
+
+}
+
+.describe{
+    background-color: #f1f2f2;
+    height: 100%;
+    padding: 30px 60px 30px 30px;
+    width: 33.33333333%;
+    z-index: 100;
+    float: left;
+}
+
+.urbas{
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.stkc{
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 30px;
+}
+.urbas_text{
+    font-size: 16px;
+    color: #000;
+    line-height: 1.5em;
+    margin-bottom: 0px;
+}
+
+.urbas_text2{
+    font-size: 16px;
+    color: #808080;
+}
+.docthem {
+    color: orangered;
+    text-decoration: none;
+}
+
+.afterbanner_discoveryou{
+    width: 1200px;
+    margin: auto;
+    display: block;
+    position: relative;
+    margin-top: 40px;
+}
+
+.discoveryou_row1{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.block1{
+    position: relative;
+    display: inline-block;
+    width: 580px;
+    height: 505px;
+}
+
+.img_block1{
+    width: 580px;
+}
+
+.text_block1{
+    height: 185px;
+}
+
+.text_block1_1{
+    font-size: 23px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.text_block1_2{
+    font-size: 16px;
+    color: #000;
+    line-height: 1.5em;
+    margin-bottom: 0px;
+}
+
+.discoveryou_row2{
+    position: relative;
+    width: 100%;
+    margin-top: 65px;
 }
