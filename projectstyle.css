@@ -4,10 +4,6 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-:root{
-    --one-width: 100vh;
-}
-
 #header {
     position: relative;
     display: flex;
@@ -222,6 +218,7 @@
     text-align: center;
     line-height: 40px;
     font-size: 20px;
+    z-index: 1000;
 }
 
 .black_contact{
@@ -237,6 +234,7 @@
     text-align: center;
     justify-content: space-around;
     font-size: 20px;
+    z-index: 1000;
 }
 
 .after_ananas{
@@ -407,6 +405,18 @@
 }
 
 .them:hover {
+    cursor: pointer;
+}
+
+.hover_text{
+    color: black;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.hover_text:hover{
+    color: orangered;
     cursor: pointer;
 }
 
@@ -1037,4 +1047,199 @@
     position: relative;
     width: 100%;
     margin-top: 65px;
+}
+
+/*end discoverYOU */
+/*start urbas corluray pack */
+
+.newbanner_urbas{
+    position: relative;
+    display: flex;
+    /* height: 750px; */
+}
+
+.banner_urbascorluray{
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.text_urbas_corluray{
+    position: relative;
+    width: 800px;
+    margin: auto;
+    /* padding-top: 40px; */
+}
+
+.text_urbas1{
+    text-align: center;
+    font-size: 64px;
+}
+
+.text_urbas2{
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+
+.text_urbas3{
+    position: relative;
+    display: flex;
+    border-bottom: 1px dashed black;
+    height: 67px;
+    border-top: 3px solid black;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.text_urbas4{
+    display: flex;
+    color: #666;
+    margin-left: 5px;
+    align-items: center;
+}
+
+.text_urbas5{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.blog_corluray1{
+    position: relative;
+    height: 533px;
+    width: 800px;
+    margin-top: 20px;
+}
+
+.text_urbas7{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.text_urbas8{
+    font-size: 18px;
+    height: 85px;
+    text-align: center;
+    line-height: 85px;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+
+.row_urbascobluray{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgurbas1{
+    height: 390px;
+    width: 390px;
+}
+
+.imgurbas2{
+    height: 220px;
+    width: 400px;
+}
+
+.imgurbas3{
+    height: 440px;
+    width: 800px;
+}
+
+.urbas_IMG1{
+    height: 400px;
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text_urbas13{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_urbas15{
+    position: relative;
+    display: flex;
+    border-top: 1px dashed black;
+    height: 67px;
+    border-bottom: 3px solid black;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.splq{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 36px;
+}
+
+.pd_splq{
+    width: 1220px;
+    display: flex;
+    position: relative;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.pro_1{
+    height: 387px;
+    width: 387px;
+    background: url('/Images/pro_12.jpg') center /cover;
+}
+
+.pro_2{
+    height: 387px;
+    width: 387px;
+    background: url('/Images/pro_13.jpg') center /cover;
+}
+
+.pro_3{
+    height: 387px;
+    width: 387px;
+    background: url('/Images/pro_14.jpg') center /cover;
+}
+
+.baivietkhac{
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.cacbaiviet{
+    width: 1220px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.bv_1{
+    width: 387px;
+}
+
+.img_bv1{
+    height: 213px;
+    width: 387px;
+    margin-bottom: 20px;
+}
+
+.text_bv1{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.text_bv1:hover{
+    color: orangered;
+}
+
+.bvk{
+    padding-bottom: 80px;
 }
