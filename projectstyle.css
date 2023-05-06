@@ -1243,3 +1243,49 @@
 .bvk{
     padding-bottom: 80px;
 }
+
+/* Giỏ Hàng*/
+#font_text{
+    position: relative;
+    width: auto;
+    height: 80px;
+   margin-top: 30px;
+   margin-left: 600px;
+}
+#contour_main{
+    position: relative;
+    margin-left: 200px;
+    height: 50px;
+}
+.contour{
+    width: 1000px;
+    background-color: black;
+    size: 20px;
+}
+#font_text2{
+    position: relative;
+    margin-left: 560px;
+    height: 70px;
+}
+.font_txt2{
+    font-family: 'Times New Roman', Times, serif;
+    size: 1px;
+}
+#comeback_buy{
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    align-items: center;
+}
+.style{
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-decoration: none;
+}
