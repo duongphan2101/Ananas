@@ -82,44 +82,80 @@
 }
 
 .select > .select_con:hover{
-    color: orangered
+    color: orangered;
 }
 
 .tab_sanpham{
     position: absolute;
     display: none;
-    z-index: 1000;
-    top: 100%;
+    top: 200%;
     background-color: #3d3c3c;
-    margin-top: 28px;
-    height: 590px;
-    width: 3000px;
-    float: left;
-    left: 0;
+    height: 450px;
+    width: 1100px;
+    z-index: 100000;
+}
+.select_con:hover > .tab_sanpham{
+    display: block;
 }
 .tab4{
     position: relative;
+    z-index: 100;
     display: flex;
-    width: 2180;
     border: 1px solid white;
+    justify-content: space-evenly;
+    /* padding: 20px 15px; */
+    padding-top: 20px;
+}
+
+.decret{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #3d3c3c;
+    opacity: 0.5;
 }
 
 .tab_cho{
-    border: 1px solid white;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+}
+
+.tab_cho:hover > .decret{
+    display: none;
 }
 
 .img_tab4{
-    height: 325px;
-    width: 325px;
+    height: 250px;
+    width: 250px;
 }
 
 .text_tab4{
     color: white;
     text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    padding-top: 15px;
 }
 
+.text_tab4:hover{
+    color: orangered;
+}
 .textpr {
+    color: #afafaf;
+    border: 1px solid white;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    bottom: 25px;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.dua{
+    padding-left: 5px;
     color: white;
 }
 
@@ -166,6 +202,7 @@
     background-color: rgb(250, 247, 247);
     position: relative;
     display: flex;
+    z-index: -1;
 } 
 .class_text_animation{
     position: relative;
@@ -1331,4 +1368,787 @@
 }
 .img_arrow::shadow{
     background-color: orange;
+}
+
+/*srat sp*/
+
+.main_sanpham{
+    position: relative;
+    display: flex;
+    width: 1220px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.mainsp_left{
+    position: relative;
+    width: 27%;
+    height: 100%;
+}
+
+.mainsp_right{
+    position: relative;
+    width: 73%;
+}
+
+.all_nam_nu{
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.line_doc{
+    border: 1px solid #afafaf;
+    margin: 0 10px;
+}
+
+.left_1{
+    position: relative;
+    height: 135px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    margin: 0 5px;
+    color: black;
+}
+
+.txt_left1{
+    position: relative;
+    padding: 12px 40px;
+}
+
+.txt_left1:hover{
+    background-color: #e8e5e5;
+}
+
+.left_2{
+    position: relative;
+    border-bottom: 1px dashed #4c4c4c;
+}
+
+.txt_left2_title{
+    position: relative;
+    font-size: 20px;
+    color: orangered;
+    font-weight: bold;
+    padding-left: 18px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: white;
+}
+
+.txt_left2_title:active > .txt_left2{
+    display: none;
+}
+
+.txt_left2_title:active{
+    color: #000;
+}
+
+.txt_left2{
+    position: relative;
+    padding: 12px 40px;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.txt_left2:hover{
+    background-color: #e8e5e5;
+}
+
+.txt_left3{
+    position: relative;
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    border: 1px solid #e4e2e2;
+    text-align: center;
+    line-height: 75px;
+    display: block;
+    height: 75px;
+    width: 75px;
+}
+
+.left_3{
+    position: relative;
+    border-bottom: 1px dashed #4c4c4c;
+}
+
+.txt_left3_title{
+    position: relative;
+    font-size: 20px;
+    color: orangered;
+    font-weight: bold;
+    padding-left: 18px;
+    padding-top: 35px;
+}
+
+.txt_left3:hover{
+    background-color: #e8e5e5;
+}
+
+.left_3_size{
+    position: relative;
+    display: flex;
+}
+
+.txt_left3_title:active > .txt_left3{
+    display: none;
+}
+.txt_left3_title:active > .left_3_size{
+    display: none;
+}
+
+.txt_left3_title:active{
+    color: #000;
+}
+
+.left_4_size{
+    position: relative;
+    display: flex;
+    padding: 0 10px;
+    margin-top: 10px;
+
+}
+
+.color_left{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 0.1px solid #afafaf;
+}
+
+.txt_left3_title:active > .txt_left4{
+    display: none;
+}
+.txt_left3_title:active > .left_4_size{
+    display: none;
+}
+/*right main_product*/
+.right_row{
+    position: relative;
+    display: flex;
+    padding-top: 35px;
+    justify-content: space-between;
+}
+
+.shoes{
+    position: relative;
+    text-align: center;
+}
+
+.heart{
+    position: absolute;
+    bottom: 100px;
+    right: 10px;
+}
+
+.shoes_title{
+    font-weight: bold;
+    padding-top: 10px;
+    color: black;
+}
+
+.shoes_title:hover{
+    color: orangered;
+}
+
+.shoes_mt{
+    padding-top: 10px;
+}
+
+.shoes_gia{
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.muangay{
+    position: absolute;
+    height: 60px;
+    width: 180px;
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 60px;
+    bottom: 85px;
+    margin-left: 51.5px;
+    display: none;
+}
+
+.shoes_bg1{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A1.jpeg') center /cover;
+}
+
+.shoes_bg1:hover{
+    background: url('/Images/all_product/Pro_A1_1.jpeg') center /cover;
+}
+
+.shoes_bg1:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg2{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A2.jpeg') center /cover;
+}
+
+.shoes_bg2:hover{
+    background: url('/Images/all_product/Pro_A2_1.jpeg') center /cover;
+}
+
+.shoes_bg2:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg3{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A3.jpeg') center /cover;
+}
+
+.shoes_bg3:hover{
+    background: url('/Images/all_product/Pro_A3_1.jpeg') center /cover;
+}
+
+.shoes_bg3:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg4{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A4.jpeg') center /cover;
+}
+
+.shoes_bg4:hover{
+    background: url('/Images/all_product/Pro_A4_1.jpeg') center /cover;
+}
+
+.shoes_bg4:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg5{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A5.jpeg') center /cover;
+}
+
+.shoes_bg5:hover{
+    background: url('/Images/all_product/Pro_A5_1.jpeg') center /cover;
+}
+
+.shoes_bg5:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg6{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A6.jpg') center /cover;
+}
+
+.shoes_bg6:hover{
+    background: url('/Images/all_product/Pro_A6_1.jpg') center /cover;
+}
+
+.shoes_bg6:hover > .muangay{
+    display: block;
+}
+
+.limited {
+    position: absolute;
+    background-color: #004e9b;
+    height: 30px;
+    width: 140px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    left: 0;
+    top: 40px;
+    line-height: 30px;
+}
+
+.shoes_bg7{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A9.jpg') center /cover;
+}
+
+.shoes_bg7:hover{
+    background: url('/Images/all_product/Pro_A9_1.jpg') center /cover;
+}
+
+.shoes_bg7:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg8{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A7.jpg') center /cover;
+}
+
+.shoes_bg8:hover{
+    background: url('/Images/all_product/Pro_A7_1.jpg') center /cover;
+}
+
+.shoes_bg8:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg9{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A8.jpg') center /cover;
+}
+
+.shoes_bg9:hover{
+    background: url('/Images/all_product/Pro_A8_1.jpg') center /cover;
+}
+
+.shoes_bg9:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg10{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A10.jpg') center /cover;
+}
+
+.shoes_bg10:hover{
+    background: url('/Images/all_product/Pro_A10_1.jpg') center /cover;
+}
+
+.shoes_bg10:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg11{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A11.jpg') center /cover;
+}
+
+.shoes_bg11:hover{
+    background: url('/Images/all_product/Pro_A11_1.jpg') center /cover;
+}
+
+.shoes_bg11:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg12{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A12.jpg') center /cover;
+}
+
+.shoes_bg12:hover{
+    background: url('/Images/all_product/Pro_A12_1.jpg') center /cover;
+}
+
+.shoes_bg12:hover > .muangay{
+    display: block;
+}
+
+.hethang{
+    position: absolute;
+    width: 283px;
+    height: 283px;
+    background-color: #000;
+    opacity: .5;
+    top: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 283px;
+}
+
+.shoes_bg13{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A13.jpg') center /cover;
+}
+
+.shoes_bg13:hover{
+    background: url('/Images/all_product/Pro_A13_1.jpg') center /cover;
+}
+
+.shoes_bg13:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg14{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A14.jpg') center /cover;
+}
+
+.shoes_bg14:hover{
+    background: url('/Images/all_product/Pro_A14_1.jpg') center /cover;
+}
+
+.shoes_bg14:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg15{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A15.jpg') center /cover;
+}
+
+.shoes_bg15:hover{
+    background: url('/Images/all_product/Pro_A15_1.jpg') center /cover;
+}
+
+.shoes_bg15:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg16{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A16.jpg') center /cover;
+}
+
+.shoes_bg16:hover{
+    background: url('/Images/all_product/Pro_A16_1.jpg') center /cover;
+}
+
+.shoes_bg16:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg17{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A17.jpg') center /cover;
+}
+
+.shoes_bg17:hover{
+    background: url('/Images/all_product/Pro_A17_1.jpg') center /cover;
+}
+
+.shoes_bg17:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg18{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A18.jpg') center /cover;
+}
+
+.shoes_bg18:hover{
+    background: url('/Images/all_product/Pro_A18_1.jpg') center /cover;
+}
+
+.shoes_bg18:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg19{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A19.jpg') center /cover;
+}
+
+.shoes_bg19:hover{
+    background: url('/Images/all_product/Pro_A19_1.jpg') center /cover;
+}
+
+.shoes_bg19:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg20{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A20.jpg') center /cover;
+}
+
+.shoes_bg20:hover{
+    background: url('/Images/all_product/Pro_A20_1.jpg') center /cover;
+}
+
+.shoes_bg20:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg21{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A21.jpg') center /cover;
+}
+
+.shoes_bg21:hover{
+    background: url('/Images/all_product/Pro_A21_1.jpg') center /cover;
+}
+
+.shoes_bg21:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg22{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/pro_A22.jpg') center /cover;
+}
+
+.shoes_bg22:hover{
+    background: url('/Images/all_product/Pro_A22_1.jpg') center /cover;
+}
+
+.shoes_bg22:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg23{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A23.jpeg') center /cover;
+}
+
+.shoes_bg23:hover{
+    background: url('/Images/all_product/Pro_A23_1.jpg') center /cover;
+}
+
+.shoes_bg23:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg24{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A24.jpg') center /cover;
+}
+
+.shoes_bg24:hover{
+    background: url('/Images/all_product/Pro_A24_1.jpg') center /cover;
+}
+
+.shoes_bg24:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg25{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A25.jpg') center /cover;
+}
+
+.shoes_bg25:hover{
+    background: url('/Images/all_product/Pro_A25_1.jpg') center /cover;
+}
+
+.shoes_bg25:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg26{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A26.jpg') center /cover;
+}
+
+.shoes_bg26:hover{
+    background: url('/Images/all_product/Pro_A26_1.jpg') center /cover;
+}
+
+.shoes_bg26:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg27{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A27.jpg') center /cover;
+}
+
+.shoes_bg27:hover{
+    background: url('/Images/all_product/Pro_A27_1.jpg') center /cover;
+}
+
+.shoes_bg27:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg28{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A28.jpg') center /cover;
+}
+
+.shoes_bg28:hover{
+    background: url('/Images/all_product/Pro_A28_1.jpg') center /cover;
+}
+
+.shoes_bg28:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg29{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A29.jpg') center /cover;
+}
+
+.shoes_bg29:hover{
+    background: url('/Images/all_product/Pro_A29_1.jpg') center /cover;
+}
+
+.shoes_bg29:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg30{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A30.jpg') center /cover;
+}
+
+.shoes_bg30:hover{
+    background: url('/Images/all_product/Pro_A30_1.jpg') center /cover;
+}
+
+.shoes_bg30:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg31{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A31.jpg') center /cover;
+}
+
+.shoes_bg31:hover{
+    background: url('/Images/all_product/Pro_A31_1.jpg') center /cover;
+}
+
+.shoes_bg31:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg32{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A32.jpg') center /cover;
+}
+
+.shoes_bg32:hover{
+    background: url('/Images/all_product/Pro_A32_1.jpg') center /cover;
+}
+
+.shoes_bg32:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg33{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A33.jpg') center /cover;
+}
+
+.shoes_bg33:hover{
+    background: url('/Images/all_product/Pro_A33_1.jpg') center /cover;
+}
+
+.shoes_bg33:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg34{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A34.jpg') center /cover;
+}
+
+.shoes_bg34:hover{
+    background: url('/Images/all_product/Pro_A34_1.jpg') center /cover;
+}
+
+.shoes_bg34:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg35{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A35.jpg') center /cover;
+}
+
+.shoes_bg35:hover{
+    background: url('/Images/all_product/Pro_A35_1.jpeg') center /cover;
+}
+
+.shoes_bg35:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg36{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A36.jpg') center /cover;
+}
+
+.shoes_bg36:hover{
+    background: url('/Images/all_product/Pro_A36_1.jpeg') center /cover;
+}
+
+.shoes_bg36:hover > .muangay{
+    display: block;
+}
+.shoes_bg37{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A37.jpg') center /cover;
+}
+
+.shoes_bg37:hover{
+    background: url('/Images/all_product/Pro_A37_1.jpeg') center /cover;
+}
+
+.shoes_bg37:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg38{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A38.jpg') center /cover;
+}
+
+.shoes_bg38:hover{
+    background: url('/Images/all_product/Pro_A38_1.jpeg') center /cover;
+}
+
+.shoes_bg38:hover > .muangay{
+    display: block;
+}
+
+.shoes_bg39{
+    height: 283px;
+    width: 283px;
+    background: url('/Images/all_product/Pro_A39.jpg') center /cover;
+}
+
+.shoes_bg39:hover{
+    background: url('/Images/all_product/Pro_A39_1.jpeg') center /cover;
+}
+
+.shoes_bg39:hover > .muangay{
+    display: block;
 }
