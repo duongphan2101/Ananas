@@ -1334,38 +1334,49 @@
     margin-left: 55px;
     font-size: 14px;
 }
-#main_comming_soon{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    width: auto;
-    height: 300px;
-    align-items: center;
-   margin-left: 500px;
 
+#main_comingsoon{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-left: 300px;
+   
 }
-.comming_soon{
-    font-style: normal;
-    font-size: 50px;
+#text-coming{
+    position: relative;
+    top: 160px;
+    right: 1200px;
 }
-.style_2{
-    width: 390px;
+.txt_coming{
+    width: 650px;
+    color: white;
+    font-size: 70px;
+    height: 200px;
+}
+.txt_dangki{
+    height: 30px;
+    color: white;
+     margin-left: 100px;
+}
+.main_dangki{
+  margin-left: 60px;
+}
+.input_dangki{
+    width: 350px;
     height: 40px;
 }
-#DangKi{
-    display: flex;
-    justify-content: space-around;
-    width: auto;
-
+.btn_arrow{
+   
+   height: 40px;
+   margin-left: -5px;
+   margin-bottom: -15px;
 }
-#input_dangki{
-    display: flex;
-    justify-content: space-around;
-    width: 400px;
-    height: 50px;
-    align-items: center;
-    margin-left: 550px;
+.txt-theodoi{
+    color: white;
+    margin-top: 50px;
+    margin-left: 100px;
 }
+<<<<<<< HEAD
 .img_arrow::shadow{
     background-color: orange;
 }
@@ -2151,4 +2162,38 @@
 
 .shoes_bg39:hover > .muangay{
     display: block;
+=======
+#all_white_img{
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 160px;   
+}
+#comback_trangchu{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 30px;
+    border: solid rgb(229, 90, 39);
+    background-color:rgb(229, 90, 39);
+    width: 450px;
+    height: 80px;
+ 
+    
+}
+.txt_quaylai{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+   margin-left: 105px;
+   margin-top: 28px;
+}
+#footer_coming{
+    background-color: #4c4c4c;
+    position: relative;
+    height: 523px;
+    z-index: -1;
+>>>>>>> 7aa7d9210ed4b84b5ffe16c65fce2d68f874a93b
 }
