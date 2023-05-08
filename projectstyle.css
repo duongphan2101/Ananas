@@ -1335,50 +1335,85 @@
     font-size: 14px;
 }
 
-#main_comingsoon{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-left: 300px;
-   
-}
-#text-coming{
+.main_comingsoon{
     position: relative;
-    top: 160px;
-    right: 1200px;
+    /* height: 999px;
+    width: 1940px; */
+    border: 1px solid black;
+    margin: auto;
 }
+
+.bg_comming{
+    display: flex;
+    margin: auto;
+}
+
+.text-coming{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 0;
+}
+
 .txt_coming{
-    width: 650px;
+    font-size: 72px;
+    font-weight: bold;
     color: white;
-    font-size: 70px;
-    height: 200px;
+    padding-top: 180px;
+    padding-bottom: 130px;
 }
+
 .txt_dangki{
-    height: 30px;
     color: white;
-     margin-left: 100px;
 }
 .main_dangki{
-  margin-left: 60px;
-}
-.input_dangki{
-    width: 350px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
     height: 40px;
+    margin-bottom: 40px;
+}
+
+.input_dangki{
+    height: 40px;
+    width: 300px;
 }
 .btn_arrow{
-   
-   height: 40px;
-   margin-left: -5px;
-   margin-bottom: -15px;
+
+    background-color: orangered;
+    width: 60px;
+    height: 40px;
 }
+
 .txt-theodoi{
     color: white;
-    margin-top: 50px;
-    margin-left: 100px;
 }
-<<<<<<< HEAD
-.img_arrow::shadow{
-    background-color: orange;
+
+.all_white_img{
+    position: relative;
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.comback_trangchu{
+    position: relative;
+    width: 415px;
+    height: 80px;
+    background-color: orangered;
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.txt_quaylai{
+    color: white;
+    font-weight: bold;
+    line-height: 80px;
+    font-size: 24px;
 }
 
 /*srat sp*/
@@ -2162,38 +2197,4 @@
 
 .shoes_bg39:hover > .muangay{
     display: block;
-=======
-#all_white_img{
-    display: flex;
-    width: 200px;
-    justify-content: space-around;
-    margin-top: 20px;
-    margin-left: 160px;   
-}
-#comback_trangchu{
-    display: flex;
-    color: white;
-    text-decoration: none;
-    margin-top: 50px;
-    margin-left: 30px;
-    border: solid rgb(229, 90, 39);
-    background-color:rgb(229, 90, 39);
-    width: 450px;
-    height: 80px;
- 
-    
-}
-.txt_quaylai{
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-   margin-left: 105px;
-   margin-top: 28px;
-}
-#footer_coming{
-    background-color: #4c4c4c;
-    position: relative;
-    height: 523px;
-    z-index: -1;
->>>>>>> 7aa7d9210ed4b84b5ffe16c65fce2d68f874a93b
 }
